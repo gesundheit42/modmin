@@ -1,14 +1,92 @@
-[22Mar2025 21:27:04.573] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[22Mar2025 21:27:04.578] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 24+36-3646
-[22Mar2025 21:27:04.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 24 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[22Mar2025 21:27:04.743] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\cgoru\Desktop\modserv\config\fml.toml is not correct. Correcting
-[22Mar2025 21:27:04.746] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[22Mar2025 21:27:04.747] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[22Mar2025 21:27:04.748] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[22Mar2025 21:27:04.749] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[22Mar2025 21:27:04.774] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[22Mar2025 21:27:04.913] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/cgoru/Desktop/modserv/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[22Mar2025 21:27:05.245] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22Mar2025 21:27:06.456] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[22Mar2025 21:27:06.780] [main/WARN] [net.minecraft.server.Eula/]: Failed to load eula.txt
-[22Mar2025 21:27:06.793] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[22Mar2025 21:40:50.289] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[22Mar2025 21:40:50.293] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 24+36-3646
+[22Mar2025 21:40:50.294] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 24 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[22Mar2025 21:40:50.581] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[22Mar2025 21:40:50.730] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/cgoru/Desktop/modmin/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[22Mar2025 21:40:51.083] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Mar2025 21:40:51.129] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'minecraft', Requested by: 'xaerominimap', Expected range: '[1.16.2,1.16.5]', Actual version: '1.21.4'
+	Mod ID: 'framework', Requested by: 'refurbished_furniture', Expected range: '[0.7.12,)', Actual version: '[MISSING]'
+[22Mar2025 21:40:52.260] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[22Mar2025 21:40:59.260] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §exaerominimap§r requires §6minecraft§r §obetween 1.16.2 and 1.16.5 (inclusive)§r
+§7Currently, §6minecraft§r§7 is §o1.21.4
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.4-54.1.3/net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.21.4-54.1.3.jar!/:1.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[?:?]
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:636) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:656) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:662) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:667) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.4-54.1.3/net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:91) ~[fmlcore-1.21.4-54.1.3.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.4-54.1.3/net.minecraftforge.fml.ModLoader$LazyInit.<clinit>(ModLoader.java:134) ~[fmlcore-1.21.4-54.1.3.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.4-54.1.3/net.minecraftforge.fml.ModLoader.get(ModLoader.java:130) ~[fmlcore-1.21.4-54.1.3.jar!/:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@54.1.3/net.minecraftforge.event.ForgeEventFactory.<clinit>(ForgeEventFactory.java:211) ~[forge-1.21.4-54.1.3-universal.jar!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@54.1.3/net.minecraftforge.common.ForgeHooks.gatherItemComponents(ForgeHooks.java:1244) ~[forge-1.21.4-54.1.3-universal.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.item.Item.components(Item.java:134) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.item.ItemStack.<init>(ItemStack.java:260) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.item.ItemStack.<init>(ItemStack.java:244) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.item.Item$Properties.usingConvertsTo(Item.java:383) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.item.Items.<clinit>(Items.java:1100) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.block.ComposterBlock.bootStrap(ComposterBlock.java:68) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:51) ~[forge-1.21.4-54.1.3-server.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.Main.main(Main.java:127) [forge-1.21.4-54.1.3-server.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.4-54.1.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-1.21.4-54.1.3.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.4-54.1.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-1.21.4-54.1.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.4-54.1.3-shim.jar:2.1.8]
+[22Mar2025 21:40:59.405] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (21/23)
+[22Mar2025 21:40:59.440] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2025-03-22_21.40.59-fml.txt
+[22Mar2025 21:40:59.442] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §exaerominimap§r requires §6minecraft§r §obetween 1.16.2 and 1.16.5 (inclusive)§r
+§7Currently, §6minecraft§r§7 is §o1.21.4,
+	Mod §erefurbished_furniture§r requires §6framework§r §o0.7.12 or above§r
+§7Currently, §6framework§r§7 is §o§nnot installed
+]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.4-54.1.3/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:156) ~[fmlcore-1.21.4-54.1.3.jar!/:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@54.1.3/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.21.4-54.1.3-universal.jar!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.Main.main(Main.java:133) [forge-1.21.4-54.1.3-server.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.4-54.1.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) [fmlloader-1.21.4-54.1.3.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.4-54.1.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) [fmlloader-1.21.4-54.1.3.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.4-54.1.3-shim.jar:2.1.8]
